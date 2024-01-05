@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactDOM } from "react";
+import ReactDOM from "react-dom";
 
 import Card from "./Card";
 import Button from "./Button";
@@ -24,6 +24,7 @@ const ModalOverlay = (props) => {
     </Card>
   );
 };
+
 const ErrorModal = (props) => {
   return (
     <React.Fragment>
